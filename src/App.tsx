@@ -1,10 +1,14 @@
 import './App.css';
+import { Header } from './widgets/header';
 
 const App = () => {
   return (
-    <div className="content">
-      <h1>Rsbuild with React</h1>
-      <p>Start building amazing things with Rsbuild.</p>
+    <div>
+      <Header />
+      <div className="content">
+        <h1 className="bg-">Rsbuild with React</h1>
+        <p>Start building amazing things with Rsbuild.</p>
+      </div>
     </div>
   );
 };
